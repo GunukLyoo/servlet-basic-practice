@@ -3,7 +3,11 @@ package edu;
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
+import javax.servlet.annotation.*;
 
+@WebServlet(urlPatterns = "/initParamTest", 
+			initParams = { @WebInitParam(name = "id", value = "guest"),
+							@WebInitParam(name = "password", value = "1004")})
 public class InitParamServlet extends HttpServlet{
 	
 	String id, password;

@@ -17,7 +17,8 @@ public class DispatcherTest1Servlet extends HttpServlet{
 		
 		ServletContext sc = this.getServletContext();
 		RequestDispatcher rd = sc.getRequestDispatcher("/dispatcher2");
-		rd.forward(req, resp);
+		//rd.forward(req, resp);
+		rd.include(req, resp);
 		
 		out.close();
 	}

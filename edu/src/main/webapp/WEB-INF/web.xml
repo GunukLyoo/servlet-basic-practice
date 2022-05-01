@@ -35,6 +35,10 @@
   	<url-pattern>/second</url-pattern>
   </filter-mapping>
   
+  <listener>
+  	<listener-class>edu.TestRequestListener</listener-class>
+  </listener>
+  
   <filter-mapping>
   	<filter-name>flow2</filter-name>
   	<url-pattern>/*</url-pattern>

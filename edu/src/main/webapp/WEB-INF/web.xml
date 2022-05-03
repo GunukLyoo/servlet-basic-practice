@@ -39,8 +39,7 @@
   <listener>
   	<listener-class>edu.TestRequestListener</listener-class>
   </listener>
-  -->
-  
+ 
   <listener>
   	<listener-class>edu.TestSessionListener</listener-class>
   </listener>
@@ -48,7 +47,10 @@
   <listener>
   	<listener-class>edu.TestSessionAttributeListener</listener-class>
   </listener>
-  
+  -->
+  <listener>
+  	<listener-class>edu.TestServletContextListener</listener-class>
+  </listener>
   
   <filter-mapping>
   	<filter-name>flow2</filter-name>

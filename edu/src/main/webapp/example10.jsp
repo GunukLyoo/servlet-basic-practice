@@ -36,5 +36,9 @@
 			out.print("현재 로그인 상태가 아닙니다.");
 		}
 	}%>
+	
+	<% RequestDispatcher rd = request.getRequestDispatcher("logInOut.jsp"); 
+		rd.forward(request, response);
+	%>
 </body>
 </html>

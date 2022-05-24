@@ -7,5 +7,7 @@
   <tag>
     <name>first</name>
     <tag-class>customTag.MyCustomTag</tag-class>
+    <!-- <body-content>empty</body-content> -->
+    <body-content>JSP</body-content>
   </tag>
 </taglib>
